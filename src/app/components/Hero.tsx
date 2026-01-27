@@ -186,7 +186,7 @@ export function Hero() {
                   className="rounded-xl overflow-hidden shadow-2xl"
                 >
                   <ImageWithFallback
-                    src="/images/myPhoto.jpeg"
+                    src="public/images/myPhoto.jpeg"
                     alt="Yash Prajapati "
                     className="w-full h-auto object-cover"
                   />
