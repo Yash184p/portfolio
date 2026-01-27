@@ -10,7 +10,7 @@ interface ImageWithFallbackProps {
 
 const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({ src, alt, className }) => (
   <img src={src} alt={alt} className={className} onError={(e) => {
-    (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400"%3E%3Crect fill="%23e5e7eb" width="400" height="400"/%3E%3C/svg%3E';
+    (e.target as HTMLImageElement).src = 'data:image/svg+xml,%3Csvg xmlns="public/images/myphoto.jpeg" width="400" height="400"%3E%3Crect fill="%23e5e7eb" width="400" height="400"/%3E%3C/svg%3E';
   }} />
 );
 
@@ -186,7 +186,7 @@ export function Hero() {
                   className="rounded-xl overflow-hidden shadow-2xl"
                 >
                   <ImageWithFallback
-                    src="public/images/myPhoto.jpeg"
+                    src="public/images/myphoto.jpeg"
                     alt="Yash Prajapati "
                     className="w-full h-auto object-cover"
                   />
