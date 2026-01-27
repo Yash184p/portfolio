@@ -23,25 +23,25 @@ export function Skills() {
     },
     {
       name: 'Java',
-      level: 85,
+      level: 72,
       icon: Code,
       color: 'from-orange-500 to-red-500',
     },
     {
       name: 'Flutter',
-      level: 88,
+      level: 86,
       icon: Smartphone,
       color: 'from-blue-400 to-cyan-400',
     },
     {
       name: 'React',
-      level: 92,
+      level: 62,
       icon: Globe,
       color: 'from-cyan-500 to-blue-500',
     },
     {
       name: 'Node.js',
-      level: 87,
+      level: 60,
       icon: Server,
       color: 'from-green-500 to-green-600',
     },
@@ -53,7 +53,7 @@ export function Skills() {
     },
     {
       name: 'PostgreSQL',
-      level: 83,
+      level: 51,
       icon: Database,
       color: 'from-indigo-500 to-blue-600',
     },
