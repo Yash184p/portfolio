@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'next-themes';
-import { Navigation } from '@/app/components/Navigation';
+import { Navigation } from "@/app/components/Navigation";
 import { Hero } from '@/app/components/Hero';
 import { About } from '@/app/components/About';
 import { Skills } from '@/app/components/Skills';
