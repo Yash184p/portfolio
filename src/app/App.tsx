@@ -8,6 +8,7 @@ import { Experience } from '@/app/components/Experience';
 import { Education } from '@/app/components/Education';
 import { Contact } from '@/app/components/Contact';
 import { Footer } from '@/app/components/Footer';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </ThemeProvider>
   );
 }
