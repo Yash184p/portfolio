@@ -203,15 +203,12 @@ export function Skills() {
               'Git & GitHub',
               'REST APIs',
               'Firebase',
-              'MongoDB',
               'Express.js',
               'Tailwind CSS',
               'Material-UI',
               'VS Code',
               'Figma',
               'Postman',
-              'Docker',
-              'Agile/Scrum',
             ].map((tech, index) => (
               <motion.span
                 key={tech}
